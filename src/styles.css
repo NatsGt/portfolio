@@ -1,0 +1,245 @@
+/*
+COLOR PALETTE
+white: #dddddd;
+dark blue: #222831;
+blue: #30475e;
+pink: #f05454;
+
+FONTS
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Merriweather', serif;
+*/
+
+/*General*/
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.App {
+  background-color: #222831;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+.title {
+  color: #f05454;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/*Titles*/
+.secondary-title {
+  font-size: 24px;
+}
+
+.section-title {
+  font-size: 50px;
+  color: #f05454;
+  margin-bottom: 30px;
+}
+
+/*Containers*/
+.section-container {
+  min-height: 100vh;
+}
+
+.primary-color-section {
+  background-color: #222831;
+  color: #dddddd;
+}
+
+.secondary-color-section {
+  background-color: #30475e;
+  color: #dddddd;
+}
+
+/*Navbar*/
+.nav-container {
+  background-color: #30475e;
+  color: #dddddd;
+  justify-content: end;
+}
+
+.my-nav-link {
+  color: #dddddd !important;
+}
+
+.my-nav-link:hover {
+  color: #f05454 !important;
+}
+/*Frontpage*/
+.main-container {
+  height: 100%;
+}
+
+.main-title {
+  font-size: 75px;
+}
+
+.main-title,
+.main-text,
+.secondary-title {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.main-text {
+  width: 50%;
+}
+
+.contact-link {
+  border: solid 0.5px #f05454;
+  border-radius: 50%;
+  line-height: 2em;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+}
+
+.social-icon {
+  color: #dddddd;
+  font-size: 1em;
+}
+
+.contact-link:hover {
+  background-color: #dddddd;
+  border: #dddddd;
+}
+.contact-link:hover .social-icon {
+  color: #f05454;
+}
+
+.main-contact-container {
+  height: 25px;
+  display: flex;
+  gap: 10px;
+}
+
+/*About*/
+
+.about-container {
+  height: 100vh;
+}
+
+.about-title {
+  color: #f05454;
+}
+
+/*Skills*/
+
+.skills-title {
+  color: #f05454;
+  text-align: left;
+}
+
+.skills-list-container {
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.skills-text {
+  text-align: left;
+}
+
+.skills-list {
+  background-color: #222831;
+  justify-content: left;
+}
+
+.skills-item {
+  background-color: #222831;
+  justify-content: left;
+  border: none;
+}
+
+/*Projects*/
+
+.projects-title {
+  color: #f05454;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.projects-card-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card {
+  height: 500px;
+  background-color: #222831;
+}
+
+.project-card:hover {
+  border: #f05454 solid 1px;
+  cursor: pointer;
+}
+
+.project-link:hover {
+  text-decoration: none;
+  color: #dddddd;
+}
+
+.card-text-description {
+  font-size: 16px;
+}
+/*Contact*/
+
+.contact-container {
+  margin: 0;
+  background-color: #222831;
+  color: #dddddd;
+}
+
+.contact-img {
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: inline;
+}
+
+.contact-section {
+  flex-direction: column;
+}
+
+.contact-section > div {
+  margin-top: 15px;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 1200px) {
+  .projects-card-container {
+    flex-direction: column;
+  }
+
+  .project-card {
+    margin-top: 15px;
+  }
+}
