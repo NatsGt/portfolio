@@ -20,7 +20,7 @@ const data = {
   aboutMe:
     "I started my career in construction where I worked with wonderful people, lead amazing projects, and lived unforgettable experiences. When I moved to Denmark in 2019, I switched my career to web developer where I started learning the fundamentals of programming with Java. Afterward, I started learning HTML and CSS on online platforms such as Coursera, Udemy, and Free Code Camp. I'm currently on my way to get my Full Stack Developer certification from Hack Your Future.",
   skillsDescription: "I started as a self-taught developer on several online platforms and trying to build some basic projects (cloning responsive websites). Afterward, I got into the Hack Your Future program where I'm currently studying for Full Stack Developer. Here I've acquired the knowledge to build other projects more complex with Javascript, NodeJs, React, MySql, KnexJs, and Git. I'm always looking for new projects that help me dig more into these technologies and I'm looking forward to new and challenges.",
-  contactSummary: "I'm currently based in Copenhaguen, Denmark. In the icons below you can see my contact info so you can know more about me or write to me directly to my email. Hey! you just met me, and this is crazy, so here's my contact, so write me... maybe?",
+  contactSummary: "Hey! you just met me, and this is crazy, so here's my contact, so write me... maybe?",
   contact: [
     {
       id: 1,
