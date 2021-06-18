@@ -92,7 +92,7 @@ const data = {
       img:
         "https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       code: "https://github.com/NatsGt/clone-travel-app",
-      preview: "https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      preview: "https://natsgt.github.io/clone-travel-app/"
     },
     {
       id: 2,
@@ -100,8 +100,8 @@ const data = {
       description:
         "This is a pretty basic search website for GitHub users based on React. It fetches data from a GitHub API, passes it through components using React hooks, and handles errors that the API may throw.",
       img:
-        "https://i.imgur.com/1A8ZJqI.gif",
-      code: "https://github.com/NatsGt/clone-travel-app",
+        "https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      code: "https://github.com/NatsGt/hyf-homework/tree/master/react/week4",
       preview: "https://i.imgur.com/1A8ZJqI.gif"
     },
     {
@@ -111,7 +111,7 @@ const data = {
         "This project brings together several tools, such as React, NodeJs, MySql, KnexJs, and Bootstrap. It's a project that uses CRUD concepts, the use of React hooks (state, context, and effect), and using external libraries for the styling.",
       img:
         "https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      code: "https://github.com/NatsGt/clone-travel-app",
+      code: "https://github.com/NatsGt/meal-sharing",
       preview: "https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     }
   ]
