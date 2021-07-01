@@ -1,7 +1,8 @@
 import React from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
-import ListGroup from "react-bootstrap/ListGroup";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -18,29 +19,19 @@ function Skills() {
         <p className="skills-text">
           {data.skillsDescription}
         </p>
-        <div className="skills-list-container">
-          <ListGroup variant="flush" className="skills-list">
-            {data.skills.slice(0, 4).map((skill) => {
+        <div className="d-flex justify-content-center mt-5">
+          <Row xs={2} className="mx-5">
+            {data.skills.map((skill) => {
               return (
-                <ListGroup.Item className="skills-item">
+                <Col key={skill.id} lg="4">
                   <FontAwesomeIcon icon={skill.icon} /> {skill.name}
-                </ListGroup.Item>
-              );
+                </Col>
+              )
             })}
-          </ListGroup>
-          <ListGroup>
-            {data.skills.slice(4, 8).map((skill) => {
-              console.log({ skill });
-              return (
-                <ListGroup.Item className="skills-item">
-                  <FontAwesomeIcon icon={skill.icon} /> {skill.name}
-                </ListGroup.Item>
-              );
-            })}
-          </ListGroup>
+          </Row>
         </div>
       </Container>
-    </Jumbotron>
+    </Jumbotron >
   );
 }
 

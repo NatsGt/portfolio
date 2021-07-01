@@ -7,7 +7,7 @@ import IconButton from './IconButton'
 
 function Frontpage() {
   return (
-    <Jumbotron id="main" fluid className="section-container primary-color-section  d-flex flex-column justify-content-around">
+    <Jumbotron id="main" className="section-container primary-color-section d-flex flex-column justify-content-around">
       <Container className="main-container">
         <div className="main-contact-container">
           {data.contact.map((data) => (
@@ -16,9 +16,7 @@ function Frontpage() {
         </div>
         <MainTitle classElement="main-title" title="Natalia Rodas" />
         <SubTitle classElement="secondary-title" title="Front End Developer" />
-        <div className="main-text">
-          <p className="text-break">{data.briefDescription}</p>
-        </div>
+        <p>{data.briefDescription}</p>
       </Container>
     </Jumbotron>
   );

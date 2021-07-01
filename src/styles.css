@@ -94,14 +94,14 @@ p {
 }
 
 .main-title,
-.main-text,
+.main-text-container,
 .secondary-title {
   margin-top: 10px;
   text-align: left;
 }
 
 .main-text {
-  width: 50%;
+  word-wrap: break-all;
 }
 
 .contact-link {
@@ -193,7 +193,6 @@ p {
 
 .project-card:hover {
   border: #f05454 solid 1px;
-  cursor: pointer;
 }
 
 .project-link:hover {

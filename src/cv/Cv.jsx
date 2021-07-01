@@ -16,9 +16,9 @@ library.add(fab);
 const data = {
   name: "Natalia Rodas",
   location: "Sydhavn, Copenhaguen, Denmark",
-  briefDescription: "I'm a Front End Developer based in Copenhaguen, Denmark. I'm passionate about web development and coding, also I have a slight obsession with logic and challenges.",
+  briefDescription: "I’m a Front End Developer based in Copenhaguen, Denmark. I’m passionate about web development, technology, and coding. I have a slight obsession with logic and challenges. ",
   aboutMe:
-    "I started my career in construction where I worked with wonderful people, lead amazing projects, and lived unforgettable experiences. When I moved to Denmark in 2019, I switched my career to web developer where I started learning the fundamentals of programming with Java. Afterward, I started learning HTML and CSS on online platforms such as Coursera, Udemy, and Free Code Camp. I'm currently on my way to get my Full Stack Developer certification from Hack Your Future.",
+    "I started my career in construction where I worked with wonderful people, lead amazing projects, and also worked independently, always looking forward to achieve goals. When I moved to Denmark in 2019, I switched my career to web developer where I started learning the fundamentals of programming with Java. Afterward, I studied HTML and CSS on online platforms such as Coursera, Udemy, and FreeCode Camp. I'm currently on my way to get my Full Stack Developer certification from Hack Your Future.",
   skillsDescription: "I started as a self-taught developer on several online platforms and trying to build some basic projects (cloning responsive websites). Afterward, I got into the Hack Your Future program where I'm currently studying for Full Stack Developer. Here I've acquired the knowledge to build other projects more complex with Javascript, NodeJs, React, MySql, KnexJs, and Git. I'm always looking for new projects that help me dig more into these technologies and I'm looking forward to new and challenges.",
   contactSummary: "Hey! you just met me, and this is crazy, so here's my contact, so write me... maybe?",
   contact: [
@@ -58,7 +58,7 @@ const data = {
     },
     {
       id: 3,
-      name: "Javascript",
+      name: "Javascript (ES6)",
       icon: faJs
     },
     {
@@ -108,11 +108,11 @@ const data = {
       id: 3,
       title: "MealSharing App",
       description:
-        "This project brings together several tools, such as React, NodeJs, MySql, KnexJs, and Bootstrap. It's a project that uses CRUD concepts, the use of React hooks (state, context, and effect), and using external libraries for the styling.",
+        "This project consists on the use of several tools, such as React, NodeJs, MySql, KnexJs, and Bootstrap. It's a project that uses CRUD concepts, fetching information from a database, and using React-Bootstrap for the styling.",
       img:
         "https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       code: "https://github.com/NatsGt/meal-sharing",
-      preview: "https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      preview: "https://meal-sharing-natsgt.herokuapp.com/"
     }
   ]
 };
