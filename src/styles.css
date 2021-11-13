@@ -79,6 +79,11 @@ p {
 
 .my-nav-link {
   color: #dddddd !important;
+  font-size: 20px;
+}
+
+.nav-container .navbar-nav {
+  gap: 15px;
 }
 
 .my-nav-link:hover {
@@ -108,14 +113,17 @@ p {
   border: solid 0.5px #f05454;
   border-radius: 50%;
   line-height: 2em;
-  width: 2em;
-  height: 2em;
+  width: 3em;
+  height: 3em;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-icon {
   color: #dddddd;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 .contact-link:hover {
@@ -127,9 +135,10 @@ p {
 }
 
 .main-contact-container {
-  height: 25px;
+  height: 45px;
   display: flex;
-  gap: 10px;
+  gap: 25px;
+  align-items: center;
 }
 
 /*About*/
@@ -169,6 +178,16 @@ p {
   background-color: #222831;
   justify-content: left;
   border: none;
+}
+
+.one-skill-item {
+  font-size: 24px;
+  padding-left: 5rem;
+  padding-top: 0.5rem;
+}
+
+.one-skill-item:hover {
+  color: #f05454;
 }
 
 /*Projects*/
