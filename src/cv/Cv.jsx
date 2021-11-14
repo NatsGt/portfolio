@@ -20,9 +20,9 @@ const data = {
   briefDescription:
     "I’m a Front End Developer based in Copenhaguen, Denmark. I’m passionate about web development, technology, and coding. I have a slight obsession with logic and challenges. ",
   aboutMe:
-    "I’m a Front End Developer mainly interested in getting more experience in coding. I like playing with CSS (weirdo, I know) and also like to play around with designs on Figma. But also I have an obsession with coding challenges. That’s how I knew this was career was for me, I get to combine my creative side with my logical side, with a daily dose of new challenges.",
+    "I’m a Front End Developer mainly interested in getting more experience in coding. I like playing with CSS (weirdo, I know) and also like to play around with designs on Figma, but also I have an obsession with coding challenges. That’s how I knew this was career was for me, I get to combine my creativity with my logic side, with a daily dose of new challenges.",
   skillsDescription:
-    "I started as a self-taught developer on several online platforms and built some basic projects (cloning responsive websites). Afterward, I got into the Hack Your Future program where I'm currently got my Front End Developer certificate. Since then, I’ve been working with projects based on Javascript, NodeJs, React, MySql, KnexJs, Git, Sass, Redux, and other several libraries. I'm always looking for new projects that help me dig more into these technologies and I'm looking forward to new and challenges.",
+    "I started as a self-taught developer on several online platforms and built some basic projects (cloning responsive websites). Afterward, I got into the Hack Your Future program where I got my Front End Developer certificate. Since then, I’ve been working with projects based on Javascript, NodeJs, React, MySql, KnexJs, Git, Sass, Redux, and other several libraries. I'm always looking for new projects that help me dig more into these technologies and I'm looking forward to new and challenges.",
   contactSummary:
     "Hey! you just met me, and this is crazy, so here's my contact, so write me... maybe?",
   contact: [
@@ -85,6 +85,11 @@ const data = {
       id: 9,
       name: "GitHub",
       icon: faGithub
+    },
+    {
+      id: 10,
+      name: "Redux",
+      icon: faReact
     }
   ],
   projectsSummary:
