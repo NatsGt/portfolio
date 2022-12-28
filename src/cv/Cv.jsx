@@ -20,7 +20,7 @@ const data = {
   briefDescription:
     "I’m a Front End Developer based in Copenhaguen, Denmark. I’m passionate about web development, technology, and coding. I have a slight obsession with logic and challenges. ",
   aboutMe:
-    "I’m a Front End Developer mainly interested in getting more experience in coding. I like playing with CSS (weirdo, I know) and also like to play around with designs on Figma, but also I have an obsession with coding challenges. That’s how I knew this was career was for me, I get to combine my creativity with my logic side, with a daily dose of new challenges.",
+    "I am a highly curious and cheerful person with a strong enthusiasm for technology and coding. I began my journey in web development through self-study and eventually received professional certification. My love for programming and staying current with new technology led me to pursue a Master's degree in Software Design at ITU, where I hope to gain a deeper understanding of the IT field.",
   skillsDescription:
     "I started as a self-taught developer on several online platforms and built some basic projects (cloning responsive websites). Afterward, I got into the Hack Your Future program where I got my Front End Developer certificate. Since then, I’ve been working with projects based on Javascript, NodeJs, React, MySql, KnexJs, Git, Sass, Redux, and other several libraries. I'm always looking for new projects that help me dig more into these technologies and I'm looking forward to new and challenges.",
   contactSummary:
@@ -58,8 +58,8 @@ const data = {
     { id: 3, name: "Sass", icon: faSass },
     {
       id: 4,
-      name: "Bootstrap",
-      icon: faBootstrap
+      name: "Typescript",
+      icon: faJs
     },
     {
       id: 5,
@@ -120,7 +120,7 @@ const data = {
         "This project consists on the use of several tools, such as React, NodeJs, MySql, KnexJs, and Bootstrap. It's a project that uses CRUD concepts, fetching information from a database, and using React-Bootstrap for the styling.",
       img: "https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       code: "https://github.com/NatsGt/meal-sharing",
-      preview: "https://meal-sharing-natsgt.herokuapp.com/"
+      preview: "https://github.com/NatsGt/meal-sharing"
     }
   ]
 }
